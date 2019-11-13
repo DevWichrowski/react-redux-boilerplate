@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import Dummy from "./components/Dummy/Dummy";
 
 function App() {
     return (
         <div className="App">
-            <h1>React-redux boilerplate</h1>
+            <Dummy/>
         </div>
     );
 }
